@@ -1,0 +1,4 @@
+fs = N/K (f signal )
+N is the number of samples taken per cycle 
+k is the number of cycles 
+taking N as 2048 pt fft and k=7 windows /cycles   ->  we get fs = 292.57 (f signal) which might be very large and hence we need to increase the number of cycles or the number of windows .
